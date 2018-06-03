@@ -86,7 +86,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-function plugin(Vue, options = {}) {
+function plugin(Vue, options) {
     if (options && options.constructor !== Object) throw 'Options must be a object';
 
     const version = Vue.version && Number(Vue.version.split('.')[0]) || -1;
